@@ -4,7 +4,10 @@ var React = require('react');
 // component with a render function that does not do anything with state.
 var About = () => {
    return (
-      <div>About component</div>
+      <div>
+         <h3>About</h3>
+         <p>Welcome to the about page.</p>
+      </div>
    );
 };
 
